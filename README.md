@@ -1,2 +1,2 @@
 # diet-bulma
-Aliases for Bulma.io CSS Framework classes that are too long
+Some simplified bulma styles to help people coming from other css frameworks (especially bootstrap). Sass is required to compile this into a css file. This assumes you will be using node-sass and including the bulma file from node_modules. I MIGHT update and or create tutorials at my discretion, but no promises as this is mostly for my own uses (for now). Use at your own risk. Please suggest improvements.
