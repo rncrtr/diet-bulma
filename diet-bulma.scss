@@ -1,0 +1,120 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+/* container */
+.container-fluid{@extend .is-fluid;}
+
+/* grid */
+.cols{@extend .columns !optional;}
+.col {@extend .column;}
+.col-narrow{@extend .is-narrow;}
+
+/* grid sizes */
+.col-3-4{@extend .is-three-quarters;}
+.col-2-3{@extend .is-two-thirds;}
+.col-1-2{@extend .is-half;}
+.col-1-3{@extend .is-one-third;}
+.col-1-4{@extend .is-one-quarter;}
+.col-full, .col-12-12{@extend .is-full;}
+.col-4-5{@extend .is-four-fifths;}
+.col-3-5{@extend .is-three-fifths;}
+.col-2-5{@extend .is-two-fifths;}
+.col-1-5{@extend .is-one-fifth;}
+.col-1{@extend .is-1;}
+.col-2{@extend .is-2;}
+.col-3{@extend .is-3;}
+.col-4{@extend .is-4;}
+.col-5{@extend .is-5;}
+.col-6{@extend .is-6;}
+.col-7{@extend .is-7;}
+.col-8{@extend .is-8;}
+.col-9{@extend .is-9;}
+.col-10{@extend .is-10;}
+.col-11{@extend .is-11;}
+.col-12{@extend .is-12;}
+
+/* offsets */
+.col-offset-3-4{@extend .is-offset-three-quarters;}
+.col-offset-2-3{@extend .is-offset-two-thirds;}
+.col-offset-1-2{@extend .is-offset-half;}
+.col-offset-1-3{@extend .is-offset-one-third;}
+.col-offset-1-4{@extend .is-offset-one-quarter;}
+.col-offset-4-5{@extend .is-offset-four-fifths;}
+.col-offset-3-5{@extend .is-offset-three-fifths;}
+.col-offset-2-5{@extend .is-offset-two-fifths;}
+.col-offset-1-5{@extend .is-offset-one-fifth;}
+.col-offset-1{@extend .is-offset-1;}
+.col-offset-2{@extend .is-offset-2;}
+.col-offset-3{@extend .is-offset-3;}
+.col-offset-4{@extend .is-offset-4;}
+.col-offset-5{@extend .is-offset-5;}
+.col-offset-6{@extend .is-offset-6;}
+.col-offset-7{@extend .is-offset-7;}
+.col-offset-8{@extend .is-offset-8;}
+.col-offset-9{@extend .is-offset-9;}
+.col-offset-10{@extend .is-offset-10;}
+.col-offset-11{@extend .is-offset-11;}
+
+/* grid utils (use on parent cols element) */
+    
+/* col align */
+.center{@extend .is-centered;}
+.v-align{@extend .is-vcentered;}
+
+/* multiline (allows more cols to wrap) */
+.ml{@extend .is-multiline;}
+
+/* gap */
+.nogap{@extend .is-gapless;}
+
+/* text align */
+.text-center, .txt-c {@extend .has-text-centered;}
+.text-left, .txt-l {@extend .has-text-left;}
+.text-right, .txt-r {@extend .has-text-right;}
+.text-just, .txt-j {@extend .has-text-justified;}
+
+/* font-weight */
+.text-light, .txt-lt {@extend .has-text-weight-light;}
+.text-normal, .txt-norm {@extend .has-text-weight-normal;}
+.text-med, .txt-md {@extend .has-text-weight-medium;}
+.text-semibold, .txt-semi {@extend .has-text-weight-semibold;}
+.text-bold, .txt-bold {@extend .has-text-weight-bold;}
+
+/* font style */
+.is-cap, .cap{@extend .is-capitalized;}
+.is-lower, .text-lower, .lower{@extend .is-lowercase;}
+.is-upper, .text-upper, .upper{@extend .is-uppercase;}
+.ital, .text-ital{@extend .is-italic;}
+
+/* button */
+.btn{@extend .button;}
+
+/* colors */
+.is-pri,.pri{@extend .is-primary;}
+.link{@extend .is-link;}
+.info{@extend .is-info;}
+.success{@extend .is-success;}
+.warn,.is-warn{@extend .is-warning;}
+.danger{@extend .is-danger;}
+
+/* sizes */
+    /* named */
+.sm, .is-sm{@extend .is-small;}
+.med, .is-med{@extend .is-medium;}
+.lg, .is-lg{@extend .is-large;}
+
+/* typography sizes, why diff from above?!?! */
+.h1, .is-h1{@extend .is-size-1;}
+.h2, .is-h2{@extend .is-size-2;}
+.h3, .is-h3{@extend .is-size-3;}
+.h4, .is-h4{@extend .is-size-4;}
+.h5, .is-h5{@extend .is-size-5;}
+.h6, .is-h6{@extend .is-size-6;}
+.h7, .is-h7{@extend .is-size-7;}
+
+/* font family */
+.sans,.font-sans{@extend .is-family-sans-serif;}
+.mono,.font-mono{@extend .is-family-monospace;}
+.font-pri{@extend .is-family-primary;}
+.font-second{@extend .is-family-secondary;}
+.font-code{@extend .is-family-code;}
