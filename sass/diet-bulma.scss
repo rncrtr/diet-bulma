@@ -1,7 +1,7 @@
 @charset "utf-8";
 @import "../node_modules/bulma/bulma.sass";
 
-/* container */
+/* container (BS compat) */
 .container-fluid{@extend .is-fluid;}
 
 /* grid */

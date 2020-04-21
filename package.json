@@ -1,0 +1,23 @@
+{
+  "name": "diet-bulma",
+  "version": "1.0.0",
+  "description": "Some simplified bulma styles to help people coming from other css frameworks (especially bootstrap). Sass is required to compile this into a css file. This assumes you will be using node-sass and including the bulma file from node_modules. I MIGHT update and or create tutorials at my discretion, but no promises as this is mostly for my own uses (for now). Use at your own risk. Please suggest improvements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rncrtr/diet-bulma.git"
+  },
+  "author": "Ryan Carter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rncrtr/diet-bulma/issues"
+  },
+  "homepage": "https://github.com/rncrtr/diet-bulma#readme",
+  "devDependencies": {
+    "bulma": "^0.8.2",
+    "node-sass": "^4.13.1"
+  }
+}
