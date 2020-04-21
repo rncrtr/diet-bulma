@@ -38,7 +38,7 @@ Add this to your package.json in the "scripts" block. Like zoy:
 
 ```
 "scripts": {
-    "scss": "node-sass" --watch assets/scss -o assets/css"
+    "scss": "node-sass" --watch sass/diet-bulma.scss css/diet-bulma.css"
 },
 ```
 
@@ -48,7 +48,9 @@ Then you can run "node scss" in terminal at will to recompile sass to css.
 
 The instructions above are the same for if you use this in your own project, but you may need to modify the scripts or the paths to match your project's settings.
 
-Here are the simple requirements for this to work:
+Then simply include the diet-bulma.css file into your page. Don't include bulma separately as diet bulma already does this for you.
+
+## A little more explanation:
 
 Diet Bulma needs to import and use styles from bulma itself. Diet Bulma overrides and merges its styles into the bulma.sass file. This is why the simplest way is to install bulma via npm and use node-sass.
 
